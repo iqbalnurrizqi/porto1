@@ -2,11 +2,11 @@ import React from "react";
 
 const Newslatter = () => {
   return (
-    <div className="w-full py-16 text-white px-4">
+    <div className="w-full py-16 text-white px-4" id="newsLatter">
       <div className="max-w-full ml-20 mr-10 grid lg:grid-cols-3">
         <div className="lg:col-span-2">
           <h1 className="xl:text-5xl md:text-4xl sm:text-4xl text-2xl font-bold py-2">
-            Want Tips & Tricks to Optimize Your Flow?
+            Want <span className="text-[#00df9a]">Tips & Tricks</span> to Optimize Your Flow?
           </h1>
           <p>Sign up to our newslatter and stay up to date</p>
         </div>

@@ -13,16 +13,18 @@ const Navbar = () => {
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
       <ul className="hidden md:flex">
         <li className="p-4 hover:text-[#00df9a]">
-          <a href="#">Home</a>
+          <a href="#Home">Home</a>
         </li>
         <li className="p-4 hover:text-[#00df9a]">
-          <a href="#">Resources</a>
+          <a href="#Analytics">About</a>
+        </li>
+        <li className="p-4  hover:text-[#00df9a]">
+          <a href="#newsLatter">Company</a></li>
+        <li className="p-4 hover:text-[#00df9a]">
+          <a href="#cards">Resources</a>
         </li>
         <li className="p-4 hover:text-[#00df9a]">
-          <a href="#">About</a>
-        </li>
-        <li className="p-4 hover:text-[#00df9a]">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
@@ -37,11 +39,11 @@ const Navbar = () => {
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">REACT.</h1>
         <ul className=" uppercase p-4">
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#">Home</a></li>
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#">Comapany</a></li>
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#">Resources</a></li>
-          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#">About</a></li>
-          <li className="p-4 hover:text-[#00df9a]"><a href="#">Contact</a></li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#Home">Home</a></li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#Analytics">About</a></li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#newsLatter">Company</a></li>
+          <li className="p-4 border-b border-gray-600 hover:text-[#00df9a]"><a href="#cards">Resources</a></li>
+          <li className="p-4 hover:text-[#00df9a]"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
